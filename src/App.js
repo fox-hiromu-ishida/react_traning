@@ -6,7 +6,6 @@ import './App.css';
 import HelloWorld from './components/HelloWorld';
 import GoodMorining from './components/GoodMorining';
 
-
 class App extends Component {
 
   //コンストラクタ 
