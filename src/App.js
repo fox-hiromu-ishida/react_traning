@@ -8,6 +8,7 @@ import GoodMorining from './components/GoodMorining';
 
 class App extends Component {
 
+  
   //コンストラクタ 
   constructor(props){
     super(props);
