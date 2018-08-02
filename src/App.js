@@ -31,6 +31,7 @@ class App extends Component {
        {/* <HelloWorld /> */}
 
       <HelloWorld arg1 = {this.state.arg1} arg2 = {this.state.arg2} />
+      <HelloWorld arg1 = {this.state.arg1} arg2 = {this.state.arg2} />
       <button onClick = {this.updateFuncTest}> ボタン</button>
 
       {/* defaultPropsでそのままの変数を渡す*/}
