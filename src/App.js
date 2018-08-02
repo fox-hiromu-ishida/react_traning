@@ -13,10 +13,9 @@ class App extends Component {
   constructor(props){
     super(props);
     this.state = {
-      arg1: 'ボタンがあるよ',
+      arg1: 'ボタンがあるよ。',
       arg2: '押してみよう！',
     };
-    // this.updateGreeting = this.updateGreeting.bind(this);
     this.updateFuncTest = this.updateFuncTest.bind(this);
 
   }
