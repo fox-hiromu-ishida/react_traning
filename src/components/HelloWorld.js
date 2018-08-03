@@ -13,7 +13,7 @@ const styles = {
 //     return <h1> {props.greeting} World</h1>
 // }
 export default ({arg1 = 'hoge', arg2}) => {
-    return <h1> {arg1} {arg2}</h1>
+    return <h1 style={styles.helloWorld}> {arg1} {arg2}</h1>
 }
 
 // export default ({greeting, to}) => 
